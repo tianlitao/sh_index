@@ -1,0 +1,1882 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0063)http://10.212.139.83:4000/articles/10062.html?category_id=10000 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>sh测试站</title>
+    <meta content="神华采购电子商务平台" name="description">
+    <meta content="神华采购电子商务平台" name="keywords">
+      <link rel="stylesheet" media="screen" href="./10062_files/application-620d29c68f544bd62a8d9ae5cd84f84b.css">
+
+      <script src="./10062_files/jquery.min.js"></script>
+      <script src="./10062_files/application-6a2b862f36af80bc8e14bc29cb29d4df.js"></script><link rel="stylesheet" href="./10062_files/layer-3a4f2ad2153ddef4db83b1a97a3e75b6.css" id="layui_layer_layercss">
+
+      <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="VULmli/GSUanltIp5jxgJ3amZExkUu4zsTGzGI/afiTuQFHajql21fcuhtmMWKkqpk46nj4ogohnypEPo8F+Ww==">
+  </head>
+
+  <body>
+      <!--头部代码-->
+      <div class="head_top">
+  <div class="head_top_main">
+  <span>你好，欢迎来到sh测试站</span>
+    <!-- ajax获取登录信息 -->
+    <div id="session_info" class="key">
+  <span><a href="#http://127.0.0.1:3000/api/check_sign_in">神华单点登录测试</a></span>
+    <span><a href="#http://10.212.139.83:4000/ancient/set_user.html?current_type=0">专业采购</a></span>
+<span><a href="#http://10.212.139.83:4000/ancient/set_user.html?current_type=1">我的销售</a></span>
+<!-- <span></span> -->
+
+    <span class="myshopcard top_down_more"><a href="javascript:void(0);">会员中心</a><i></i>
+        <div class="dorpdown-layer">
+            <div class="dorpdown_border">
+                <div class="item"><a href="#http://10.212.139.83:4000/addresses.html">我的收货地址</a></div>
+                <div class="item"><a href="#http://10.212.139.83:4000/invoices.html">我的发票</a></div>
+                <div class="item"><a href="#http://10.212.139.83:4000/user_marks.html">我的关注</a></div>
+                <div class="item"><a href="#http://10.212.139.83:4000/feedbacks.html">我的反馈</a></div>
+            </div>
+            <div class="dorpdown_border">
+                <div class="item"><a href="#http://10.212.139.83:4000/lxrs/personal.html">个人信息</a></div>
+                <div class="item"><a href="javascript:void(0);">单位信息</a></div>
+                <div class="item"><a href="javascript:void(0);">内部帐号</a></div>
+                <div class="item"><a href="javascript:void(0);">修改密码</a></div>
+            </div>
+        </div>
+    </span>
+
+<b class="spacing"></b>
+<span class="myshopcard"><a href="#http://10.212.139.83:4000/users/sign_in.html">登录</a><i></i></span>
+<span class="myshopcard"><a href="http://10.212.163.143:9001/dsLogin/identity?key=cgds&amp;back_url=http://10.212.139.83:4000?wd=cgds">供应商登录</a><i></i></span>
+<span class="myshopcard"><a href="#http://10.212.139.83:4000/users/sign_up.html">注册</a><i></i></span>
+
+
+
+</div>
+  </div>
+</div>
+
+<div class="head_mid">
+  <div class="logo"><a href="#http://10.212.139.83:4000/articles/10062.html?category_id=10000#"></a></div>
+  <div class="search">
+    <form style="display: inline;float:right;" id="search_form" action="http://10.212.139.83:4000/search.html" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓" maxlength="200">
+      <input type="hidden" name="o" id="o" value="" maxlength="200">
+      <i class="search_p"></i>
+      <span class="twitter-typeahead" style="position: relative; display: inline-block;"><input type="text" class="search_text tt-hint" readonly="" autocomplete="off" spellcheck="false" tabindex="-1" dir="ltr" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; opacity: 1; background: url(&quot;http://10.212.139.83:4000/assets/search.png&quot;) 10px 10px / auto no-repeat scroll padding-box border-box rgba(0, 0, 0, 0);" maxlength="200"><input type="text" name="k" id="k" class="search_text tt-input" placeholder="请输入关键字" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;" maxlength="200"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: &quot;Microsoft YaHei&quot;; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><div class="tt-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;"><div class="tt-dataset tt-dataset-best-pictures"></div></div></span>
+      <input type="submit" name="commit" value="搜商品" class="search_btn" onclick="search(&quot;products&quot;)" maxlength="200">
+      <input type="submit" name="commit" value="搜店铺" class="search_btn" onclick="search(&quot;shops&quot;)" maxlength="200">
+</form>    <div class="hot">
+      热门搜索：
+        <a href="#http://10.212.139.83:4000/search.html?k=%E8%AE%A1%E7%AE%97%E6%9C%BA">计算机</a>
+        <a href="#http://10.212.139.83:4000/search.html?k=%E6%89%93%E5%8D%B0%E6%9C%BA">打印机</a>
+        <a href="#http://10.212.139.83:4000/search.html?k=%E7%A9%BA%E8%B0%83">空调</a>
+        <a href="#http://10.212.139.83:4000/search.html?k=%E7%AC%94%E8%AE%B0%E6%9C%AC">笔记本</a>
+    </div>
+  </div>
+  <div class="goto_car">
+    <a href="#http://10.212.139.83:4000/cart">我的购物车 <b>0</b></a>
+  </div>
+</div>
+
+<script type="text/javascript">
+  if (!$.browser.msie || ($.browser.msie && $.browser.version > 8) ){
+    var bestPictures = new Bloodhound({
+      datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+      queryTokenizer: Bloodhound.tokenizers.whitespace,
+      remote: {
+        url: '/mall_products/autocomplete?query=%QUERY',
+        wildcard: '%QUERY'
+      }
+    });
+
+    $('#k').typeahead(null, {
+      name: 'best-pictures',
+      display: 'value',
+      source: bestPictures
+    });
+  }
+  function search(type){
+    if(type == 'departments'){
+      $('#search_form').attr('action','/emalls')
+    }
+    if(type == 'shops'){
+      $('#search_form').attr('action','/shops')
+    }
+    return true;
+  }
+</script>
+      <!-- 采购品目导航 -->
+      <!--导航代码开始-->
+<div class="nav">
+  <div class="nav_main m_nav_main">
+    <!-- <div class="left_nav_bg"></div> -->
+    <div class="left_nav" id="left_nav_menu">
+      <h1>全部商品分类</h1>
+    </div>
+        <div class="all-goods" id="all-goods" style="display: none;">
+            <div class="item lbypjxfqc png_item">
+      <div class="product">
+        <h3>
+          <span class=""><a href="#http://10.212.139.83:4000/channel/11205.html">劳保用品及消防器材</a></span>
+        </h3>
+      </div>
+      <div class="product-wrap posone" style="display: none;">
+        <div class="cf">
+              <div class="pro_box">
+                <span class="pro_two">安全防护用品、用具 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11782.html">救生衣</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11774.html">安全防护服</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11776.html">安全用眼护具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11778.html">防护围裙</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11780.html">护耳器、耳塞</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11784.html">其他安全防护用品</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11775.html">安全帽</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11777.html">防护手套</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11779.html">防护鞋、靴</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11781.html">呼吸防护用品</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11783.html">安全防护用具</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">消防系统及器材 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11756.html">灭火器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11757.html">灭火剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11759.html">雨淋阀组</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11761.html">消防栓</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11763.html">消防炮</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11765.html">固定消防系统</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11758.html">消防泵</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11760.html">消防水带</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11762.html">消防枪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11764.html">消防辅助器材</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11766.html">固定消防系统配件</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">普通防护用品 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11767.html">工作服</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11769.html">雨鞋/靴</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11770.html">袜子</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11772.html">普通防护用品、用具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11768.html">普通帽、手套、鞋</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11771.html">普通盖垫用品</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11773.html">清洁卫生类用品</a></span>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+    <div class="item gj png_item">
+      <div class="product">
+        <h3>
+          <span class=""><a href="#http://10.212.139.83:4000/channel/11202.html">工具</a></span>
+        </h3>
+      </div>
+      <div class="product-wrap posone" style="display: none;">
+        <div class="cf">
+              <div class="pro_box">
+                <span class="pro_two">模具 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11854.html">塑料模</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11855.html">锻造模</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11857.html">其他模具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11853.html">冲压模</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11856.html">模具标准件</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">加油工具 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11858.html">油枪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11860.html">油杯</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11861.html">油抽子</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11859.html">油壶</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11862.html">其他加油工具</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">泥瓦工、石工工具 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11863.html">泥瓦工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11864.html">石工工具</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">装修机械及其配件 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11865.html">灰浆机械</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11866.html">灰浆机械配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11868.html">水磨石机配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11870.html">地板抛光机配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11871.html">打蜡机</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11873.html">地面清除机</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11875.html">洁石机</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11876.html">洁石机配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11878.html">弹涂机配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11880.html">建工装修用弯管机配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11867.html">水磨石机</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11869.html">地板抛光机</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11872.html">打蜡机配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11874.html">地面清除机配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11877.html">弹涂机</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11879.html">建工装修用弯管机</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">电工工具 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11881.html">电烙铁</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11882.html">吸锡器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11884.html">脚扣</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11885.html">电工钳</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11887.html">其他电工工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11883.html">停送电工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11886.html">电工工具配件</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">电动工具 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11888.html">电动金属切削工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11889.html">电动砂磨工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11890.html">电动装配工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11892.html">电动木工工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11893.html">矿山和铁道用电动工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11894.html">建筑用电动工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11895.html">电动套丝机</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11896.html">电动清理工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11897.html">电站专用电动工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11899.html">其他电动工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11891.html">林木、园林用电动工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11898.html">电动工具配件</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">通用手工工具 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11964.html">木锉</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11965.html">刨子</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11966.html">凿子及类似工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11967.html">钳子</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11968.html">镊子</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11969.html">切管器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11970.html">螺栓切头器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11971.html">打孔冲子及类似工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11972.html">扳手</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11973.html">可互换扳手套筒</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11974.html">板钳</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11975.html">台钳</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11976.html">夹钳</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11977.html">钻孔或攻丝工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11978.html">锤子</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11980.html">砧</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11982.html">玻璃刀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11983.html">螺丝刀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11985.html">手动套丝机</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11987.html">千斤顶</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11988.html">拉马</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11990.html">其他手工工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11958.html">手锯</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11960.html">圆锯片</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11961.html">链锯条</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11963.html">锉刀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11979.html">斧</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11981.html">轻便锻炉</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11984.html">喷灯</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11986.html">成套手工工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11989.html">通用手工工具零配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11959.html">带锯片</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11962.html">直锯片</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">刀和剪 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11991.html">手工刀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11992.html">剪刀</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">气动工具 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11900.html">气动铆钉机</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11901.html">气镐</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11902.html">气铲</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11903.html">气动捣固机</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11904.html">冲击式气动除锈机</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11905.html">顶把</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11906.html">气动砂轮机</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11908.html">气扳机</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11910.html">气动螺丝刀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11911.html">气动磨光机</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11912.html">气动抛光机</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11914.html">气铣刀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11916.html">气动工具配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11907.html">气钻</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11909.html">气动剪切工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11913.html">气锯</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11915.html">气动攻丝机</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">喷枪及类似器具 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11917.html">喷砂机</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11919.html">喷枪及类似器具的零配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11918.html">船用洗舱机</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">机械刀具 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11920.html">高速钢金属切削刀具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11922.html">硬质合金金属切削刀具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11923.html">硬质合金木工刀具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11925.html">金属陶瓷刀具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11926.html">立方氮化硼刀具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11928.html">工具系统</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11929.html">刀杆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11931.html">变径套</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11921.html">高速钢木工刀具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11924.html">硬质合金建工刀具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11927.html">金刚石刀具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11930.html">接杆</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">手动量仪量具 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11934.html">千分尺</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11936.html">量带</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11938.html">角度尺</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11939.html">指示表</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11941.html">光洁度样块</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11943.html">样板</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11944.html">深度尺</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11932.html">量规</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11933.html">卡尺</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11935.html">量尺</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11937.html">高度尺</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11940.html">刻线尺</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11942.html">标准齿轮</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11945.html">量具附件</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">防爆工具 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11946.html">防爆扳手</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11947.html">防爆锤</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11948.html">其他防爆工具</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">专用手工工具 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11949.html">农业手工工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11951.html">园艺专用手工工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11952.html">煤矿专用手工工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11954.html">电站专用手工工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11955.html">港口专用手工工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11957.html">专用手工工具零配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11950.html">林业手工工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11953.html">铁路专用手工工具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11956.html">手动剪切机</a></span>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+    <div class="item hgyljcp png_item">
+      <div class="product">
+        <h3>
+          <span class=""><a href="#http://10.212.139.83:4000/channel/11194.html">化工原料及产品</a></span>
+        </h3>
+      </div>
+      <div class="product-wrap posone" style="display: none;">
+        <div class="cf">
+              <div class="pro_box">
+                <span class="pro_two">工业洗涤剂 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12938.html">工业清洗剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12939.html">工业去污剂</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">化学试剂 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/13014.html">同位素及标记化合物</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13015.html">仪器分析用试剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13016.html">特种试剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13002.html">通用无机试剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13004.html">非金属有机化合物</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13006.html">基准及标准试剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13007.html">无机离子分析用特殊试剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13009.html">络合滴定剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13011.html">临床诊断、检验用试剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13012.html">生化试剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13013.html">指示剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13003.html">通用有机试剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13005.html">高纯试剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13008.html">有机分析用特殊试剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13010.html">核磁共振用特殊分析试剂</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">其他化工产品 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/13017.html">各种其他化工产品</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">煤炭化工产品 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/13018.html">炼焦副产化工苯类产品</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13019.html">炼焦副产化工萘蒽类产品</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13020.html">炼焦副产化工酚类产品</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13021.html">炼焦副产化工焦油类产品</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">石油化工联产品 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/13022.html">石油化工联产苯类产品</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13023.html">石油化工联产烷类产品</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">日用化工品 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/13024.html">骨胶</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13025.html">皮胶</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13027.html">天然香料</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13026.html">明胶</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">信息用化学品 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/13029.html">感光纸</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13032.html">摄影洗印用化学品</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13028.html">感光胶片</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13030.html">磁粉</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13031.html">片基</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">农药 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/13033.html">杀虫剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13035.html">杀菌剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13036.html">除草剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13034.html">杀鼠剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13037.html">生物农药</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">化学肥料 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/13038.html">各种化学肥料</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">无机化学品 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/13040.html">碱类</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13042.html">氧化物、过氧化物、稀土氧化物及化合物</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13039.html">酸类</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13041.html">盐类</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13043.html">单质</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">有机化学品 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/13044.html">烷烃</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13046.html">炔烃</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13048.html">烃类衍生物</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13049.html">醇类</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13051.html">醚类</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13053.html">酮类</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13055.html">环烷酸类</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13057.html">酯类</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13058.html">胺类</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13060.html">腈类化合物</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13062.html">杂环化合物</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13063.html">醌类化合物</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13065.html">其他有机化学品</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13045.html">烯烃</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13047.html">芳香烃</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13050.html">酚及其衍生物</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13052.html">醛类</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13054.html">酐类</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13056.html">羧酸及其盐类</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13059.html">酰胺类</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13061.html">肼、胲及其衍生物</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13064.html">有机中间体</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">胶粘剂 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12940.html">皮带胶粘材料</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12942.html">其他胶粘剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12941.html">密封结构胶粘剂</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">石蜡 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12943.html">各种石蜡</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">凡士林 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12944.html">各种凡士林</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">吸附剂 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12945.html">硅胶</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12946.html">分子筛</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12947.html">硅藻土</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12948.html">活性炭</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12949.html">氧化铝</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">溶剂 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12950.html">各种溶剂</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">添加剂 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12951.html">絮凝剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12952.html">润滑油添加剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12953.html">燃料油添加剂</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">助剂 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12955.html">化工助剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12957.html">塑料助剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12958.html">橡胶助剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12960.html">水处理剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12954.html">炼油助剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12956.html">化纤助剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12959.html">离子交换树脂</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">催化剂 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12962.html">催化重整催化剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12963.html">加氢精制催化剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12965.html">制氢催化剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12966.html">烃化催化剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12968.html">叠合催化剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12969.html">醚化催化剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12971.html">芳烃生产催化剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12972.html">基本有机原料催化剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12974.html">化肥催化剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12976.html">环保催化剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12977.html">防止公害催化剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12961.html">催化裂化催化剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12964.html">加氢裂化催化剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12967.html">铁系液化催化剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12970.html">裂解制乙烯催化剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12973.html">聚合催化剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12975.html">净化催化剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12978.html">降凝催化剂</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">油墨 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12979.html">油墨</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">油漆辅助材料 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12981.html">稀释剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12983.html">脱漆剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12985.html">固化剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12986.html">漆片</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12988.html">其他油漆辅助材料</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12982.html">催干剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12984.html">防潮剂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12987.html">防沉剂</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">油漆涂料 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12990.html">清漆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12992.html">磁漆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12994.html">底漆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12995.html">防锈漆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12997.html">铝银浆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12999.html">防水涂料</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13001.html">特殊涂料</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12989.html">调和漆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12991.html">绝缘漆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12993.html">中间层漆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12996.html">特殊油漆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12998.html">墙面涂料</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/13000.html">地面涂料</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">合成纤维聚合物 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12937.html">各种合成纤维</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">颜料 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12980.html">各种颜料</a></span>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+    <div class="item yqyb png_item">
+      <div class="product">
+        <h3>
+          <span class=""><a href="#http://10.212.139.83:4000/channel/11187.html">仪器仪表</a></span>
+        </h3>
+      </div>
+      <div class="product-wrap posone" style="display: none;">
+        <div class="cf">
+              <div class="pro_box">
+                <span class="pro_two">光学仪器 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10424.html">物理光学仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10421.html">望远镜</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10425.html">红外仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10427.html">光学仪器附件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10422.html">光学显微镜</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10426.html">其他光学仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10423.html">激光器</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">控制阀及其执行机构 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10505.html">自力式调节阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10513.html">执行机构配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10492.html">电动执行机构</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10495.html">双座调节阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10496.html">套筒调节阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10498.html">偏心旋转调节阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10499.html">控制蝶阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10501.html">控制角阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10504.html">柱塞控制阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10506.html">阀门定位器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10507.html">电气转换器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10509.html">电磁阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10510.html">过滤减压阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10511.html">其他控制阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10512.html">控制阀配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10491.html">气动执行机构</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10494.html">单座调节阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10497.html">控制球阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10500.html">控制闸阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10503.html">隔膜调节阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10493.html">液动执行机构</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10502.html">三通调节阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10508.html">位置开关</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10514.html">控制阀及执行机构附件</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">物位仪表 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10557.html">膜盒式加压液位计</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10551.html">仪表式物位开关</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10552.html">石英管液位计</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10554.html">电导式物位仪表</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10556.html">浮筒式液位计</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10559.html">磁致伸缩液位计</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10560.html">超声波物位计</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10563.html">射频导纳物位计</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10564.html">重锤料位计</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10565.html">应力传感器料位计</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10566.html">物位仪表配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10553.html">玻璃板液位计</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10558.html">磁翻转液位计</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10562.html">辐射物位计</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10555.html">浮子式液位计</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10561.html">雷达物位计</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">仪器仪表元器件 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10369.html">仪表用机械元件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10370.html">仪表用弹性元件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10371.html">仪表电磁元件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10372.html">仪器仪表用结构装置</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">机动车检测仪器设备 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10373.html">汽车检测诊断设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10374.html">汽车发动机检测诊断设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10375.html">汽车底盘检测仪器设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10376.html">汽车电器设备检测仪器设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10378.html">摩托车及其他机动车检测仪器设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10379.html">机动车检测仪器设备配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10377.html">车用辅助装置检测仪器设备</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">交通安全仪器 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10381.html">机动车安全防护仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10382.html">道路交通电子信息检测设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10384.html">道路交通事故勘察仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10385.html">交通安全仪器配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10383.html">道路交通安全检查仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10380.html">驾驶员身体素质测试仪器</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">轴承专用仪器 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10386.html">各种轴承专用仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10387.html">轴承专用仪器配件</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">船舶专用仪器仪表 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10388.html">罗经</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10390.html">舵罗方位仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10392.html">船用舵角指示器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10394.html">计程仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10395.html">横倾仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10397.html">船舶航行数据记录仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10389.html">罗经自动舵组合式仪表</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10393.html">航海六分仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10396.html">纵倾仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10399.html">船舶专用仪器仪表配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10391.html">操舵仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10398.html">水深探测仪</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">安全仪器 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10400.html">气体安全检测仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10401.html">矿井通风检测仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10402.html">矿压检测仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10403.html">断电遥测成套设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10405.html">自救仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10407.html">射线检测仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10408.html">安全仪器配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10406.html">粉尘浓度测量仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10404.html">安全仪器校验仪器</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">校验仪器及设备 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10411.html">流量校验仪器及设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10412.html">物位校验仪器及设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10413.html">转速校验仪器及设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10415.html">振动位移校验仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10416.html">信号发生器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10417.html">多功能过程校验仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10420.html">校验仪器及设备配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10410.html">压力校验仪器及设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10414.html">电工检验仪器及设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10418.html">手操仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10409.html">温度校验仪器及设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10419.html">声级计</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">实验室仪器及装置 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10428.html">动力测试仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10429.html">试验箱及气候环境试验设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10431.html">真空检验仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10432.html">土工测试仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10433.html">集中取样分析设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10434.html">天平</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10436.html">实验室仪器及装置配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10430.html">应变测量仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10435.html">天平附件</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">计量标准器具 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10438.html">热学计量标准器具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10439.html">力学计量标准器具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10440.html">电磁学计量标准器具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10441.html">无线电计量标准器具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10442.html">时间频率计量标准器具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10443.html">电离辐射计量标准器具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10445.html">声学计量标准器具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10446.html">化学计量标准器具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10447.html">计量标准器具附件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10437.html">长度计量标准器具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10444.html">光学计量标准器具</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">机械量仪 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10448.html">转速表</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10449.html">测厚表</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10450.html">测振仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10452.html">硬度仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10453.html">速度计</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10454.html">探头及转换器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10455.html">机械量仪配件及附件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10451.html">噪声仪</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">电工仪器仪表 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10457.html">电压表</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10458.html">功率表</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10459.html">功率因数表</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10460.html">电度表</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10463.html">数字电网监测表</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10464.html">电阻测量仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10466.html">漏电装置检测仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10467.html">谐波检测仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10470.html">电工仪器仪表附件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10461.html">智能电度表</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10465.html">综合测量装置</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10469.html">电工仪表变送器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10456.html">电流表</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10462.html">万用表</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10468.html">相序表</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">仪表专用阀 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10472.html">仪表针型阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10474.html">仪表截止阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10475.html">仪表闸板阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10476.html">仪表专用阀配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10473.html">仪表球阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10471.html">仪表阀组</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">仪表管件 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10478.html">终端接头</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10479.html">仪表短节</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10480.html">管嘴</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10482.html">冷凝圈</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10484.html">隔离容器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10477.html">中间接头</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10481.html">仪表用套管</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10485.html">其他仪表管件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10483.html">冷凝容器</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">仪表盘、柜、箱及操作台 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10486.html">仪表盘</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10487.html">仪表柜</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10489.html">仪表操作台</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10488.html">仪表箱</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10490.html">仪表插件附件</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">控制室组合仪表 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10515.html">显示仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10516.html">积算仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10517.html">巡回检测仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10518.html">动圈式记录仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10520.html">无纸记录仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10521.html">火焰监视装置</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10522.html">控制室组合仪表配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10519.html">自动平衡记录仪</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">分析仪 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10524.html">质谱仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10525.html">波谱仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10526.html">光谱仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10527.html">油分析仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10528.html">水分析仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10530.html">TOD分析仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10531.html">硅酸根分析仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10533.html">粘度计</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10534.html">电导仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10536.html">浊度仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10537.html">密度计</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10539.html">磁氧式气体分析仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10540.html">红外式气体分析仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10543.html">盐酸根分析仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10544.html">联氨分析仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10545.html">测定仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10546.html">电化学式分析仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10547.html">热学式分析仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10550.html">分析仪配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10532.html">磷酸根分析仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10538.html">露点仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10542.html">可燃有毒气体检测器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10548.html">光学式分析仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10523.html">色谱仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10529.html">COD分析仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10535.html">酸度仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10541.html">氧化锆气体分析仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10549.html">能谱和射线分析仪器</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">流量仪表 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10568.html">流量计</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10569.html">水表</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10571.html">节流装置</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10567.html">流量开关仪表</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10572.html">流量仪表配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10570.html">燃气表</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">压力仪表 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10573.html">仪表式压力开关</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10574.html">气体减压器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10577.html">普通压力表</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10578.html">压力变送器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10579.html">差压变送器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10580.html">电接点压力表</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10582.html">压力仪表配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10576.html">标准压力表</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10575.html">压力计</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10581.html">特种压力表</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">温度仪表 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10584.html">热电阻</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10585.html">热电偶</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10587.html">玻璃温度计</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10588.html">温度变送器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10590.html">不接触式温度计</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10591.html">压力式温度计</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10592.html">一体化温度仪表</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10593.html">温湿度仪表</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10595.html">数字温度检测仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10596.html">温度仪表附件及配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10583.html">温度开关仪表</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10589.html">电接点温度计</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10594.html">温控器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10586.html">双金属温度计</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">示波器与通信用仪器 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10597.html">示波器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10598.html">通信检测、分析仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10599.html">有线电测量仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10601.html">电话通信测试仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10602.html">电声器件测试仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10603.html">时间、频率测量仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10604.html">电测量记录、分析仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10606.html">示波器与通信用仪器附件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10605.html">测磁仪器仪表</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10600.html">线缆测试仪器</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">量仪 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10607.html">渐开线圆柱齿轮测量仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10608.html">渐开线圆柱测量齿轮</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10609.html">滚刀测量仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10612.html">圆度测量仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10613.html">平直度测量仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10614.html">表面粗糙测量仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10615.html">角度测量仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10617.html">主动测量系统</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10619.html">气动测量系统</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10620.html">量仪附件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10610.html">螺纹测量仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10616.html">三角坐标测量仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10611.html">圆柱蜗杆涡轮测量仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10618.html">电动测量系统</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">绘图仪器 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10623.html">绘图仪器配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10621.html">绘图机</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10622.html">绘图台</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">大地测量仪器 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10626.html">光学经纬仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10627.html">水准仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10628.html">陀螺仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10630.html">大地测量仪器配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10625.html">电子经纬仪</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10629.html">激光测量、指向仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10624.html">全站仪</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">地球物理仪器 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10631.html">水道测量仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10632.html">海洋仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10633.html">水文、地质仪器</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">导航气象仪器及装置 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10634.html">定向罗盘</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10635.html">导航仪器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10636.html">气象仪器</a></span>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+    <div class="item rydq png_item">
+      <div class="product">
+        <h3>
+          <span class=""><a href="#http://10.212.139.83:4000/channel/11203.html">日用电器</a></span>
+        </h3>
+      </div>
+      <div class="product-wrap posone" style="display: none;">
+        <div class="cf">
+              <div class="pro_box">
+                <span class="pro_two">其他家用、日用机械及电器 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11820.html">广播和电视接收设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11821.html">广播和电视接收设备配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11822.html">音像、声光及重放设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11823.html">音像、声光及重放设备配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11824.html">音频输入、输出设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11825.html">音频输入、输出设备配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11829.html">保健器具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11831.html">家用电风扇</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11827.html">电热毯等电热卧具及电热服装、鞋和服饰</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11826.html">家用缝纫机</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11828.html">美容美发器具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11830.html">室内加热器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11832.html">熨烫器具</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">清洁电器 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11833.html">洗衣机</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11834.html">脱水机</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11836.html">干洗机</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11838.html">表面清洁电器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11839.html">擦鞋器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11835.html">干衣机</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11837.html">热水器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11840.html">消毒柜</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11841.html">清洁电器配件</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">厨房电器具 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11843.html">电热烘烤器具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11844.html">电热煎炒器具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11846.html">电炉(灶)类</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11847.html">抽油烟机</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11849.html">洗碗(碟)机等食具清洁器具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11850.html">厨房电器配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11842.html">电热蒸煮器具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11845.html">饮用水加热器具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11848.html">食品制备器具</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">制冷电器 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11852.html">冷藏冷冻箱</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11851.html">电冰箱</a></span>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+    <div class="item fjgdpj png_item">
+      <div class="product">
+        <h3>
+          <span class=""><a href="#http://10.212.139.83:4000/channel/11189.html">阀及管道配件</a></span>
+        </h3>
+      </div>
+      <div class="product-wrap posone" style="display: none;">
+        <div class="cf">
+              <div class="pro_box">
+                <span class="pro_two">视镜 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10261.html">各种视镜</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">管道过滤器及配件 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10262.html">各种管道过滤器及配件</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">金属软管 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10264.html">各种金属软管</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">膨胀节(补偿器) &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10265.html">各种膨胀节(补偿器)</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">支吊架、管托 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10266.html">弹簧支、吊架</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10267.html">阻尼器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10268.html">管托</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11151.html">其他支吊架、管托</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">三通、四通 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10270.html">三通</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10272.html">非标三通、四通</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10271.html">四通</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">弯管 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10274.html">非标加工弯管</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10273.html">弯管</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">弯头 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10275.html">弯头</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10276.html">非标加工弯头</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">直通管配件 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10278.html">单丝头</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10279.html">双丝头</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10282.html">同心大小头</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10283.html">非标大小头</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10285.html">偏心大小头</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10287.html">管接头</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10281.html">管帽</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10284.html">异径短管</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10288.html">非标加工直通管配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10280.html">管堵(丝堵)</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10286.html">支管台</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10277.html">管箍</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">法兰毛坯 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10289.html">对焊法兰毛坯</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10290.html">平焊法兰毛坯</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">盲板 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10291.html">8字盲板</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10292.html">单孔板</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10293.html">垫环</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10295.html">非标盲板</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10294.html">插板</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">法兰 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10296.html">整体法兰</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10297.html">对焊法兰</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10300.html">丝扣法兰</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10301.html">承插焊法兰</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10302.html">松套法兰</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10299.html">孔板法兰</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10304.html">非标加工法兰</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10298.html">平焊法兰</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10303.html">盲法兰</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">其他阀门 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10305.html">其他各种阀门</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">阀门配件 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10306.html">各种阀门配件</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">非金属阀门 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10308.html">塑料阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10309.html">其他非金属阀门</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10307.html">陶瓷阀</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">工业管道阀门用驱动装置 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10310.html">电动阀门驱动装置</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10311.html">气动阀门驱动装置</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10312.html">液动阀门驱动装置</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10313.html">电-液动阀门驱动装置</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10314.html">气-液动阀门驱动装置</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">专用阀门 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10316.html">角阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10318.html">排泥阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10320.html">清焦阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10321.html">其他专用阀门</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10317.html">高温掺合阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10319.html">四通阀</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">安全阀 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10323.html">中压安全阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10324.html">低压安全阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10325.html">其他安全阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10322.html">高压安全阀</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">低压阀门 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10326.html">低压闸阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10327.html">低压截止阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10328.html">低压节流阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10330.html">低压旋塞阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10331.html">低压止回阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10332.html">低压减压阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10334.html">低压球阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10335.html">低压疏水阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10337.html">其他低压阀门</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10336.html">低压气瓶阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10329.html">低压隔膜阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10333.html">低压蝶阀</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">中压阀门 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10338.html">中压闸阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10339.html">中压截止阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10342.html">中压止回阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10343.html">中压减压阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10345.html">中压疏水阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10347.html">其他中压阀门</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10340.html">中压节流阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10344.html">中压蝶阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10341.html">中压球阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10346.html">中压旋塞阀</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">高压阀门 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10348.html">高压闸阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10351.html">高压球阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10352.html">高压止回阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10354.html">高压蝶阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10356.html">高压旋塞阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10357.html">其他高压阀门</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10349.html">高压截止阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10353.html">高压减压阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10350.html">高压节流阀</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10355.html">高压疏水阀</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">阀用手动执行机构 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10315.html">各种阀用手动执行机构</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">钢衬管件 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10269.html">各种钢衬管件</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">阻火器及配件 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10263.html">各种阻火器及配件</a></span>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+    <div class="item dxdl png_item">
+      <div class="product">
+        <h3>
+          <span class=""><a href="#http://10.212.139.83:4000/channel/11183.html">电线电缆</a></span>
+        </h3>
+      </div>
+      <div class="product-wrap posone" style="display: none;">
+        <div class="cf">
+              <div class="pro_box">
+                <span class="pro_two">电缆和光缆附件 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10877.html">电缆终端及接头</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10880.html">自容式充油电缆压力供油箱</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10881.html">电缆桥架及附件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10882.html">光缆附件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10883.html">电力线路金具</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10878.html">电缆导体用接线端子</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10879.html">电缆导体用连接管</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">光缆 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10884.html">各种光缆</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">特殊电缆 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10886.html">预分支电力电缆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10887.html">电伴热带</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10885.html">复合电缆</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">通信电缆 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10889.html">同轴射频电缆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10888.html">对称电缆</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">控制、信号电缆 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10890.html">橡皮绝缘控制电缆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10891.html">塑料绝缘控制电缆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10893.html">信号电缆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10892.html">补偿导线</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10894.html">感温电缆</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">电力电缆 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10896.html">橡皮绝缘电力电缆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10897.html">塑料绝缘电力电缆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10898.html">交联电力电缆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10899.html">特殊电力电缆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10895.html">纸绝缘电力电缆</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">电气装备专用电线电缆 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10902.html">潜油电泵用电缆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10904.html">其他电气装备专用电线电缆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10903.html">电焊机用电缆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10901.html">机车车辆专用电缆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10900.html">电机用电线电缆</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">电气装备通用电线电缆 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10905.html">橡皮绝缘电线电缆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10906.html">聚氯乙烯绝缘电线电缆</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">船用电线电缆 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10907.html">船用电力电缆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10908.html">船用控制电缆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10909.html">船用通信电缆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10910.html">船用信号电缆</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">矿用电线电缆 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10912.html">矿用固定敷设阻燃电缆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10913.html">矿用控制电缆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10914.html">矿用通信电缆</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10911.html">矿用移动型阻燃橡套电缆</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">电磁线 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10915.html">漆包线</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10916.html">绕包线</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10918.html">无机绝缘线</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10917.html">绕包漆包线</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">裸电线 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10919.html">铜线</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10920.html">铝线</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10921.html">钢线</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10923.html">铝合金线</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10925.html">钢芯铝绞线</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10924.html">铜银合金线</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10922.html">铜合金线</a></span>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+    <div class="item ssd png_item">
+      <div class="product">
+        <h3>
+          <span class=""><a href="#http://10.212.139.83:4000/channel/11188.html">输送带</a></span>
+        </h3>
+      </div>
+      <div class="product-wrap posone" style="display: none;">
+        <div class="cf">
+              <div class="pro_box">
+                <span class="pro_two">输送带附件 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10359.html">穿条</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10358.html">皮带扣</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">异型输送带 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10360.html">各种异型输送带</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">金属材料抗拉层输送带 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10362.html">钢缆牵引输送带</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10363.html">折叠式输送带</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10361.html">钢丝绳芯输送带</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">纤维材料抗拉层输送带 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10366.html">聚酯输送带</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10367.html">PVC输送带</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10365.html">尼龙输送带</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10368.html">PVG输送带</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10364.html">帆布输送带</a></span>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+    <div class="item ryyz png_item">
+      <div class="product">
+        <h3>
+          <span class=""><a href="#http://10.212.139.83:4000/channel/11181.html">燃油油脂</a></span>
+        </h3>
+      </div>
+      <div class="product-wrap posone" style="display: none;">
+        <div class="cf">
+              <div class="pro_box">
+                <span class="pro_two">润滑脂 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10955.html">钙基润滑脂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10956.html">钙钠基润滑脂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10957.html">复合钙基润滑脂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10958.html">锂基润滑脂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10960.html">铝基润滑脂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10962.html">脲基润滑脂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10963.html">复合磺酸钙基润滑脂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10965.html">高低温润滑脂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10967.html">真空及压缩机润滑脂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10968.html">液压(密封)润滑脂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10970.html">白色润滑脂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10964.html">膨润土润滑脂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10969.html">特种润滑脂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10954.html">钠基润滑脂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10959.html">复合锂基润滑脂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10966.html">极压及齿轮润滑脂</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10961.html">复合铝基润滑脂</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">乳化油及乳化液 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10971.html">乳化油</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10972.html">防冻液</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10973.html">乳化液</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">润滑油 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10974.html">内燃机油</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10976.html">液压油</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10977.html">机械油</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10979.html">压缩机油</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10980.html">航空润滑油</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10983.html">热传导润滑油</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10984.html">汽轮机油</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10985.html">热处理油</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10987.html">传动油</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10989.html">防锈油</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10990.html">特种润滑油</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10978.html">脱模油</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10982.html">绝缘油</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10986.html">蒸汽汽缸油</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10975.html">齿轮油</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10981.html">导轨油</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10988.html">制动油</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">燃油 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/10992.html">柴油</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10994.html">船用燃料油</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10995.html">燃料重油</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10991.html">汽油</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/10993.html">煤油</a></span>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+    <div class="item gdtxsbjpj png_item">
+      <div class="product">
+        <h3>
+          <span class=""><a href="#http://10.212.139.83:4000/channel/11199.html">广电通信设备及配件</a></span>
+        </h3>
+      </div>
+      <div class="product-wrap posone" style="display: none;">
+        <div class="cf">
+              <div class="pro_box">
+                <span class="pro_two">磁卡及电路卡 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12197.html">磁(纹)卡</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12198.html">各种磁卡及集成电路卡</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">通信配套设备及配件 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12199.html">通信设备配套架设安装维护设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12200.html">通信设备配套架设安装维护设备配件</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">雷达无线电设备及配件 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12201.html">雷达</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12202.html">无线电遥控/遥测/遥感设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12203.html">雷达无线电设备配件</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">通信设备配件 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12204.html">有线电话设备配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12205.html">交换设备配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12209.html">卫星通信设备配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12207.html">无线对讲设备配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12206.html">传输设备配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12208.html">移动通信设备配件</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">通信设备 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12210.html">有线电话设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12212.html">传输设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12214.html">移动通信设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12211.html">交换设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12213.html">无线对讲设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12215.html">卫星通信设备</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">广电信号接收设备及配件 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12216.html">无线电话无线电报接收设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12217.html">无线电话无线电报接收设备配件</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">其他广播电视设备及配件 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12218.html">立体电视设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12219.html">立体电视设备配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12221.html">多工广播设备配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12223.html">广播电视传输设备配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12225.html">应用电视设备配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12220.html">多工广播设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12222.html">广播电视传输设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12224.html">应用电视设备</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">节目制作和播控设备及配件 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12227.html">电视制作中心设备配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12229.html">电视播出中心设备配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12231.html">录像编辑设备配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12233.html">专业摄像机和信号源设备配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12226.html">电视制作中心设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12228.html">电视播出中心设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12230.html">录像编辑设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12232.html">专业摄像机和信号源设备</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">广电信号发射接收设备及配件 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12234.html">广播电视发射设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12235.html">广播电视发射设备配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12236.html">有线电视设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12237.html">有线电视设备配件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12238.html">数字电视条件接收设备</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12239.html">数字电视条件接收设备配件</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">电子元器件 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/12240.html">电容器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12241.html">LC滤波器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12242.html">LC衰减器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12243.html">电阻</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12244.html">印制电路板</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12246.html">数码显示管</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12248.html">真空开关管</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12249.html">二极管、三极管</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12251.html">场效应管</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12253.html">光电子器件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12255.html">集成电路</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12257.html">压电器件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12245.html">计数器</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12247.html">工业用X射线管</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12250.html">晶闸管</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12252.html">双极型晶体管</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12254.html">敏感元器件</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/12256.html">电感元件</a></span>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+    <div class="item sdq png_item">
+      <div class="product">
+        <h3>
+          <span class=""><a href="#http://10.212.139.83:4000/channel/11206.html">水、电、气</a></span>
+        </h3>
+      </div>
+      <div class="product-wrap posone" style="display: none;">
+        <div class="cf">
+              <div class="pro_box">
+                <span class="pro_two">蒸汽和热水 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11722.html">蒸汽</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11723.html">热水</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">气 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11724.html">天然气</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11726.html">氢气</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11727.html">氮气</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11729.html">压缩空气</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11731.html">一氧化氮</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11732.html">二氧化碳</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11734.html">乙炔</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11735.html">甲烷</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11737.html">丙烷</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11739.html">乙烯</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11740.html">丙烯</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11741.html">丁烯</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11742.html">硫化氢</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11743.html">氯气</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11744.html">稀有气体</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11745.html">液化气</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11746.html">工业气体</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11738.html">丁烷</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11725.html">煤气</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11728.html">氧气</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11730.html">一氧化碳</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11733.html">氨气</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11736.html">乙烷</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">电能 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11747.html">水力发电电能</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11748.html">火力发电电能</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11749.html">风力发电电能</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11750.html">核发电电能</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11751.html">光伏发电电能</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11752.html">工业用电</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11753.html">民用电</a></span>
+                </div>
+              </div>
+              <div class="pro_box">
+                <span class="pro_two">水 &gt;</span>
+                <div class="pro_three">
+                      <span><a href="#http://10.212.139.83:4000/channel/11754.html">生活用水</a></span>
+                      <span><a href="#http://10.212.139.83:4000/channel/11755.html">工业专用水</a></span>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+    <div id="jsddm" class="jsddm">
+      <li class="jsddmli"><a href="./index.htm" class="other">首 页</a></li>
+          <li class="jsddmli"><a href="./sh_articles.htm">行业资讯(付费)</a></li>
+<li class="jsddmli"><a href="#http://10.212.139.83:4000/articles?category_id=10086">询价专区</a></li>
+<li class="jsddmli"><a href="#http://10.212.139.83:4000/articles?category_id=10087">竞价专区</a></li>
+<li class="jsddmli"><a href="#http://10.212.139.83:4000/articles/tender">招标公告</a></li>
+    </div>
+    </div>
+
+    </div>
+    <!--导航代码结束-->
+
+      <!--消息-->
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    $('.ui-dialog-grid').fadeOut(3000);
+  });
+</script>
+
+    <!--面包屑代码开始-->
+<div class="crumbs">
+  当前位置：<a href="./index.htm">首页</a> &gt;
+  <a href="./sh_articles.htm">行业资讯（付费）</a> &gt;
+  <a href="#http://10.212.139.83:4000/articles/10062.html?category_id=10000#">公告详情</a>
+</div>
+
+<!--面包屑代码结束-->
+<!--商品详情代码开始-->
+<div class="jianju_x"></div>
+<div class="news_desc">
+<div class="zw_c_c_title">2016年第四季度电商行业指数（10元/份）</div>
+    <div class="zw_c_c_qx">
+    <p>
+      <span>发布人：sh_admin</span>
+      <span>发布单位：神华信息公司</span>
+      <span>发布时间：2017-01-20 10:57:17</span>
+      </p>
+    </div>
+    <div class="news_box">
+    <p>
+    </p><p style="text-align: center;"><img src="./10062_files/nil_class-下载-2c34ed3691d3ea180c7950b9e717ea29.png" _src="http://10.212.139.83:4000/uploads/umeditor/2017-06-15/nil_class-%E4%B8%8B%E8%BD%BD-2c34ed3691d3ea180c7950b9e717ea29.png"></p><p style="text-align: center;">扫描付款后可查看，加二维码</p>
+    <p></p>
+    </div>
+</div>
+<!--商品详情代码结束-->
+
+<style type="text/css">
+  a.file_a{
+    color: #1e5494;
+
+  }
+  a.file_a:hover{
+    text-decoration: underline;
+  }
+</style>
+
+
+    <!-- 底部 -->
+    <!-- 服务代码开始 -->
+<div class="wrapper">
+</div>
+<!-- 服务代码结束 -->
+
+
+  <div class="fotter">
+  <div class="fotter_nav">
+    <span><a href="#http://10.212.139.83:4000/articles/10062.html?category_id=10000#">神华采购电子商务平台</a></span>|
+    <span><a href="#http://10.212.139.83:4000/articles.html?category_id=10080">关于我们</a></span>|
+
+    <span><a href="#http://10.212.139.83:4000/articles.html?category_id=10081">版权说明</a></span>|
+    <span><a href="#http://10.212.139.83:4000/articles/10062.html?category_id=10000#">电子邮箱</a></span>|
+    <span><a href="#http://10.212.139.83:4000/articles/10062.html?category_id=10000#">法律条款</a></span>|
+    <span><a href="#http://10.212.139.83:4000/feedbacks/feedback_index.html">意见反馈</a></span>|
+    <span><a href="http://www.shenhuagroup.com.cn/" ,="" target="_blank">友情链接</a></span>
+  </div>
+<p><span>业务咨询：神华采购电子商务平台</span><span class="ml20">京ICP备15067089号</span></p>
+<p><span>技术支持：神华信息技术有限公司</span><span class="ml20">电话：400-965-5696</span></p>
+</div>
+
+
+
+
+<script>
+    $("body").ichat({
+        placement: 'right',
+        top: 27,
+         title: '在线客服',
+        color: 'black',
+        trigger: 'click',
+        items: [{"type":"qq","title":"售后服务","trigger":"click","open":true,"items":[]},{"type":"qq","title":"购买咨询","trigger":"click","open":true,"items":[{"title":"太阳","qq":"40790670","image":"/assets/qq.png"},{"title":"010-88888888","tel":"010-88888888","image":"/assets/tel.png"}]}]
+    });
+</script><!-- ichat区域 --><div id="ichatBody" class="ichat-body ichat-pull-right" style="top:27%;">  <!-- ichat按钮 -->  <div id="ichatButton" class="ichat-button ichat-float-left ichat-color-black">    <b id="ichatButtonName">在线客服</b>  </div>  <!-- ichat内容 -->  <div id="ichatContent" class="ichat-content ichat-float-left">  <div>  <div data-ichat-toggle="ichatItem0" class="ichat-title ichat-cursor">售后服务</div>  <div id="ichatItem0" class="ichat-list"><ul class="ichat-list-ul"></ul></div></div><div>  <div data-ichat-toggle="ichatItem1" class="ichat-title ichat-cursor">购买咨询</div>  <div id="ichatItem1" class="ichat-list"><ul class="ichat-list-ul"><li><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=40790670&amp;site=qq&amp;menu=yes" style="background-image: url(&#39;/assets/qq.png&#39;);" target="_blank">太阳</a></li><li><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=undefined&amp;site=qq&amp;menu=yes" style="background-image: url(&#39;/assets/tel.png&#39;);" target="_blank">010-88888888</a></li></ul></div></div></div></div>
+<div style="display:none;" class="jqPreload0">sdsdssdsd</div></body><div></div></html>
